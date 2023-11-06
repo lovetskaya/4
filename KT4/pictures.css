@@ -86,27 +86,33 @@ img {
 
 .one{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Снимок экрана 2023-11-05 в 10.56.57.png");
-        background-position: 50% 50%;
+        width: 20vw;
+        height: auto;
 }
 .three{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Снимок экрана 2023-11-05 в 12.29.51.png");
-        background-position: 50% 50%;
+        width: 20vw;
+        height: auto;
 }
 .five{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Снимок экрана 2023-11-05 в 12.31.47.png");
-        background-position: 50% 50%;
+       width: 20vw;
+        height: auto;
 }
 .two  {
     background-color: rgb(226, 126, 50);
-    background-position: 50% 50%;
+    width: 20vw;
+        height: auto;
 }
 .four  {
     background-color: rgb(85, 226, 50);
-    background-position: 50% 50%;
+    width: 20vw;
+        height: auto;
 }
 .six  {
     background-color: rgb(50, 220, 226);
-    background-position: 50% 50%;
+    width: 20vw;
+        height: auto;
 }
 
 .footer {
