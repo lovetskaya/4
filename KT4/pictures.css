@@ -118,7 +118,18 @@ img {
 
 
 
-/* Адаптивка под телефоны */
+
+/* Адаптация (планшеты) */
+@media(min-width: 701px) and (max-width: 1000px) {
+    body {
+        font-size: 1em;
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        width: 25vw;
+    }
+}
+/* Адаптация(телефоны) */
 @media(max-width: 700px) {
     body {
         font-size: 4vw;
@@ -142,13 +153,3 @@ img {
     }
 }
 
-/* Адаптивка под планшеты */
-@media(min-width: 701px) and (max-width: 1000px) {
-    body {
-        font-size: 1em;
-    }
-
-    .one, .two, .three, .four, .five, .six {
-        width: 25vw;
-    }
-}
