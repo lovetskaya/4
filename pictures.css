@@ -16,10 +16,11 @@ h1 {
     color: #0d0d0d;
     text-align: center ;
     letter-spacing: 2px;
-    padding: 0px 0px 0px 130px;
+    /* padding: 0px 0px 0px 0px; */
+    /* margin-left: 1%; */
     font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L", sans-serif;
     font-weight: bold;
-    font-size: 40px ;
+    /* font-size: 40px ; */
  
 }
 
@@ -27,6 +28,7 @@ p {
     color: rgb(0, 0, 0);
     line-height: 2;
     font-style: oblique;
+    font-size: 1.5vw;
 }
 
 footer p {
@@ -60,16 +62,26 @@ svg {
 
 .header {
     display: flex;
-    padding-top: 30px;
+    /* padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
+    padding-top:    2vw;
+    padding-left:   7vw;
+    padding-right:  7vw;
+    padding-bottom: 2vw;
     justify-content: space-between;
 
 }
 
+.yuw {
+    display: flex;
+    align-items: center;
+}
+
 .home, .about {
     color: black;
+    font-size: 2vw;
 }
 
 .home:hover, .about:hover {
@@ -77,7 +89,7 @@ svg {
 }
 
 .about {
-    margin-left: 30px;
+    margin-left: 3vw;
 }
 
 .content {
@@ -114,11 +126,6 @@ svg {
 .title {
     color: white;
     letter-spacing: 3px;
-}
-
-.bold {
-    text-align: left;
-    font-size: 4vw;
 }
 
 .text {
@@ -171,8 +178,20 @@ svg {
         font-size: 4vw;
     }
 
+    p {
+        font-size: 3.7vw;
+    }
+
     br.eu {
         display: none;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    .home, .about {
+        font-size: 4.5vw;
     }
 
     .row1, .row2 {
@@ -197,6 +216,14 @@ svg {
 @media(min-width: 701px) and (max-width: 1000px) {
     body {
         font-size: 1em;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    .home, .about {
+        font-size: 3vw;
     }
 
     .one, .two, .three, .four, .five, .six {
