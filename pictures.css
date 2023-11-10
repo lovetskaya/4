@@ -79,7 +79,7 @@ svg {
     align-items: center;
 }
 
-.home, .about {
+.home {
     color: black;
     font-size: 2vw;
 }
@@ -90,6 +90,8 @@ svg {
 
 .about {
     margin-left: 3vw;
+	color: black;
+    font-size: 2vw;
 }
 
 .content {
